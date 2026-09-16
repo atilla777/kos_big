@@ -2,7 +2,7 @@
 title: Split Legacy And Simple KOS Repositories
 task: BOOT-050
 created: 2026-09-16
-status: in-progress
+status: completed
 ---
 
 # BOOT-050: Split Legacy And Simple KOS Repositories
@@ -64,3 +64,9 @@ The current repository is clean and synchronized at `9514cd5`. Its architecture 
 
 - Existing links to `atilla777/kos` will identify KOS Simple after the canonical name is reused.
 - External clones of the legacy repository should update their remote to `atilla777/kos_big` rather than relying on redirects.
+
+## Completion
+
+- Renamed this GitHub repository and local checkout to `kos_big` and updated `origin`.
+- Created public `atilla777/kos` at `/home/aleksei/plums/kos` with independent history and no legacy application code.
+- Updated the external development plan to cancel `BOOT-049` and select `BOOT-051` / `KOS-SIMPLE-001` next.
